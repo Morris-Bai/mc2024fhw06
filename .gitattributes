@@ -1,0 +1,5 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+*.meta[[:space:]].fbx[[:space:]].prefab filter=lfs diff=lfs merge=lfs -text
+*.cs[[:space:]].asset filter=lfs diff=lfs merge=lfs -text
+*.glb filter=lfs diff=lfs merge=lfs -text
